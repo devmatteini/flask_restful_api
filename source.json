@@ -1,0 +1,104 @@
+{
+	"countries": [
+		"Italy",
+		"England",
+		"Germany",
+		"Spain",
+		"France",
+		"Russia",
+		"Portugal",
+		"Belgium",
+		"Ukraine",
+		"Turkey",
+		"Austria",
+		"Netherlands",
+		"Czech Republic",
+		"Denmark"
+	],
+	"championships": [
+		{
+			"name": "Serie A",
+			"number_of_teams": 20,
+			"coefficent": 58010,
+			"ranking": 4
+		},
+		{
+			"name": "Premier League",
+			"number_of_teams": 20,
+			"coefficent": 74176,
+			"ranking": 2
+		},
+		{
+			"name": "Bundesliga",
+			"number_of_teams": 18,
+			"coefficent": 58355,
+			"ranking": 3
+		},
+		{
+			"name": "La Liga",
+			"number_of_teams": 20,
+			"coefficent": 85640,
+			"ranking": 1
+		},
+		{
+			"name": "Ligue 1",
+			"number_of_teams": 20,
+			"coefficent": 49582,
+			"ranking": 5
+		},
+		{
+			"name": "Russian Premier League",
+			"number_of_teams": 16,
+			"coefficent": 42216,
+			"ranking": 6
+		},
+		{
+			"name": "Liga NOS",
+			"number_of_teams": 18,
+			"coefficent": 39949,
+			"ranking": 7
+		},
+		{
+			"name": "Jupiler Pro League",
+			"number_of_teams": 16,
+			"coefficent": 31100,
+			"ranking": 8
+		},
+		{
+			"name": "Ukrainian Premier League",
+			"number_of_teams": 20,
+			"coefficent": 29700,
+			"ranking": 9
+		},
+		{
+			"name": "Süper Lig",
+			"number_of_teams": 18,
+			"coefficent": 29400,
+			"ranking": 10
+		},
+		{
+			"name": "Austrian Bundesliga",
+			"number_of_teams": 12,
+			"coefficent": 27925,
+			"ranking": 11
+		},
+		{
+			"name": "Eredivise",
+			"number_of_teams": 18,
+			"coefficent": 26350,
+			"ranking": 12
+		},
+		{
+			"name": "Fortuna liga",
+			"number_of_teams": 16,
+			"coefficent": 24800,
+			"ranking": 13
+		},
+		{
+			"name": "Superliga",
+			"number_of_teams": 14,
+			"coefficent": 24375,
+			"ranking": 14
+		}
+	]
+}
