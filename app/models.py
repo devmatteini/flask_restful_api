@@ -14,6 +14,7 @@ class Championship(db.Model):
     name = db.Column(db.String(50), nullable=False)
     number_of_teams = db.Column(db.Integer, nullable=False)
     coefficent = db.Column(db.Integer, nullable=False)
+    ranking = db.Column(db.Integer, nullable=False)
     id_country = db.Column(db.Integer, db.ForeignKey(
         'country.id_country'), nullable=False)
     country = db.relationship('Country')
