@@ -11,7 +11,7 @@ class Country(db.Model):
 
 class CountrySchema(ma.Schema):
     class Meta:
-        fields = ['id_cuntry', 'name']
+        fields = ['id_country', 'name']
 
 
 class Championship(db.Model):
