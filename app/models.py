@@ -1,4 +1,4 @@
-from app import db
+from app import db, ma
 
 
 class Country(db.Model):
@@ -7,6 +7,11 @@ class Country(db.Model):
 
     def __repr__(self):
         return '<Country {}>'.format(self.name)
+
+
+class CountrySchema(ma.Schema):
+    class Meta:
+        fields = ['id_cuntry', 'name']
 
 
 class Championship(db.Model):
@@ -21,3 +26,19 @@ class Championship(db.Model):
 
     def __repr__(self):
         return '<Championship {}>'.format(self.name)
+
+
+class ChampionshipSchema(ma.Schema):
+    class Meta:
+        fields = ['id_championship',
+                  'name',
+                  'number_of_teams',
+                  'coefficent',
+                  'ranking',
+                  'id_country']
+
+
+country_schema = CountrySchema()
+
+championship_schema = ChampionshipSchema()
+championships_schema = ChampionshipSchema(many=True)
