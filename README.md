@@ -32,7 +32,7 @@ List of all the champsionships.
 
 Response:
 
-```json
+```
 [
     {
         "coefficent":58010,
